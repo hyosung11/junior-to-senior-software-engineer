@@ -7,4 +7,19 @@ Udemy's The Complete Junior to Senior Web Developer Roadmap (2020)
 
 ### SSH Command
 - `ssh {user}@{host}`
+-`ssh root@167.99.146.57`
 - digital ocean servers
+- connecting to github
+- access a remote computer
+
+### How SSH Works
+- Symmetrical Encryption
+- Asymmetrical Encryption
+- Hashing
+
+#### Symmetrical Encryption
+- uses one secret key for both encryption and decryption by both parties
+- key exchange algorithm
+
+
+#### Asymmetrical Encryption
