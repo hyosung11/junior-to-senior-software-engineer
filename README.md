@@ -1,4 +1,4 @@
-# junior-to-senior-software-engineer
+# Junior to Senior Software Engineer
 Udemy's The Complete Junior to Senior Web Developer Roadmap (2020)
 
 ## Introduction to SSH (Secure Shell)
@@ -6,4 +6,5 @@ Udemy's The Complete Junior to Senior Web Developer Roadmap (2020)
 - SSH provides secure encrypted data exchange over a shell
 
 ### SSH Command
-- digital ocean servers 
+- `ssh {user}@{host}`
+- digital ocean servers
