@@ -127,7 +127,7 @@ jpeg-optimizer.com - didn't work for me
 tinypng.com - jpeg and png files
 squoosh.app (Google)
 
-Media Queries - responsive design 
+### Media Queries - responsive design:
 ```css
 @media screen and (min-width: 900px) {
   body {
@@ -143,3 +143,21 @@ Media Queries - responsive design
   }
 }
 ```
+
+### Media Query Resources
+- view and remove exif online https://www.verexif.com/en/
+
+- Media Queries for standard devices https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+- Media Queries Cheat Sheet https://gist.github.com/bartholomej/8415655
+
+### Delivery Optimizations - The traveling deliveryman deeper dive
+- reduce the number of deliveries that have to be made
+
+- consider using flexbox and css grid (which are native) instead of dowloading CSS frameworks like Bootstrap or Foundation
+
+- similarly with JavaScript streamline
+
+- browsers have a max amount of requests and size of the request that they can make at a time (2-6)
+
+- Max parallel requests per browser https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
