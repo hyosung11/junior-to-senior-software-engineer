@@ -211,17 +211,24 @@ a.important {
 JavaScript Loading Diagram
 ![JSL](/images/JavaScript-Loading-Diagram.png)
 
-<script>
+`<script>`
 - app.js
 
-<script async>
+`<script async>`
 - add to anything that doesn't effect the DOM or CSSOM; external scripts that are not essential to the User Experience (UX)
 - if core functionality requires JS
 
-<script defer>
+`<script defer>`
 - executes after HTML has been parsed
 - if core functionality does NOT require JS
 
 Async & Defer Resource: https://stackoverflow.com/questions/10808109/script-tag-async-defer
 
-### Critical Render Path 4
+### Tools to Test
+- PageSpeed Insights https://developers.google.com/speed/pagespeed/insights/
+
+- WebPageTest https://www.webpagetest.org/
+
+### Performance Tools Resource List Lesson 52
+- https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10210456#bookmarks
+- prefetching https://css-tricks.com/prefetching-preloading-prebrowsing/
