@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=vsXMMT2CqqE&t=
 
 https://www.youtube.com/watch?v=NF1pwjL9-DE
 
-### Hashing
+### 18. Hashing
 - a form of cryptography used in SSH connections
 - e.g., bcrypt to hash passwords
 - HMAC or Hash based Message Authentication Code
@@ -46,5 +46,8 @@ https://www.youtube.com/watch?v=NF1pwjL9-DE
 Steps
 1. Diffie-Hellman Key Exchange
 2. Arrive at Symmetric Key
-3. Make sure of no funny business
-4. Authenticate User 
+3. Hashing to make sure of no funny business
+4. Authenticate User
+
+### 20. SSH Into a Server
+- generate public and private rsa keys
