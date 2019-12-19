@@ -61,3 +61,22 @@ Steps
 
 ### Contribute to Open Source Projects
 https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10340674#overview
+
+## Section 3: Performance Part 1
+
+### Three Keys to Performance
+1. Front end client side
+- critical render path
+- optimized code
+- progressive web app
+
+2. Transfer - latency
+- minimize files
+- minimize delivery
+
+3. Back end processing
+- CDNs (content delivery networks)
+- caching
+- load balancing
+- DB scaling
+- GZIP
