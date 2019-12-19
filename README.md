@@ -51,3 +51,13 @@ Steps
 
 ### 20. SSH Into a Server
 - generate public and private rsa keys
+- How to add SSH keys to the `authorized_keys` of a Digital Ocean Server.
+- Recommended `ssh-keygen` command:
+```ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+- SSH Video https://youtu.be/ORcvSkgdA58
+
+- Setup SSH on Github https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf
+
+### Contribute to Open Source Projects
+https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10340674#overview
