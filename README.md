@@ -53,7 +53,7 @@ Steps
 - generate public and private rsa keys
 - How to add SSH keys to the `authorized_keys` of a Digital Ocean Server.
 - Recommended `ssh-keygen` command:
-```ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+```ssh-keygen -t rsa -b 4096 -C "youremail@example.com"```
 
 - SSH Video https://youtu.be/ORcvSkgdA58
 
