@@ -166,10 +166,35 @@ squoosh.app (Google)
 
 - bundle files into one e.g., https://webpack.js.org/ - a frontend dev tool  
 
-### Critical Render Path
+### Critical Render Path Introduction
 - DOM: Document Object Model - The DOM is an interface to an HTML document.
 
 - CSSOM: CSS Object Model - The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript.
 
 - Critical Render Path Diagram
 ![CRP](/images/critical-render-path.png)
+
+### Critical Render Path 1
+- browser parses data from files and starts creating the DOM
+- as the browser encounters an external resource it starts downloading those and CSS and JS files take higher priority and image files take lower priority
+- load CSS files as soon as possible and JS files as late as possible
+- JS requires HTML and CSS parsing before it can be run
+
+### Critical Render Path 2
+- CSS is called render blocking because we have to wait for the CSSOM to combine with the DOM to complete the render tree.
+
+1. Only load whatever is needed.
+2. Above the fold loading (from newspapers)
+3. Media Attributes
+4. Less specificity
+```CSS
+/* good */
+a.important {
+  color: pink;
+}
+
+/* bad */
+.header .nav .item .link a.important {
+  color: pink;
+}
+```

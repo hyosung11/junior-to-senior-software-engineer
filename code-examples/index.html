@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Critical Render Path</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css" media="all">
+
+    <!-- #5 download in the background and don't disrupt the page load if screen doesn't match -->
+    <link rel="stylesheet" href="./style.css" media="only screen and (min-width: 500px;)">
+
+    <!-- Internal CSS - Pro: Allows us to not have to request CSS file -->
+
+  </head>
+  <body>
+
+    <!-- Inline CSS -->
+    <h1>How Fast?</h1>
+    <button>Click Me</button>
+
+    <!-- #4 Above the fold loading -->
+    <h2 class="important">
+      Important above the fold content
+    </h2>
+
+
+    <!-- Below the fold content. You won't see this until after page loads.  From Critical Render Path 2-->
+
+    <h2 class="secondary">
+      Below the fold content. You won't see this until after page loads.
+    </h2>
+
+    <script type="text/javascript">
+      const loadStyleSheet = src => {
+        if (document.createStyleSheet) {
+          document.createStyleSheet(src)
+        } else {
+          const stylesheet = document.createElement('link');
+          stylsheet.href = src;
+          stylesheet.type = 'text/css';
+          stylesheet.rel = 'stylesheet'
+          document.getElementsByTagName('head')[0].appendChild(stylesheet)
+        }
+      }
+
+      window.onload = function() {
+        console.log('window done!');
+        loadStyleSheet('/.style3.css')
+      }
+    </script>
+
+  </body>
+</html>
