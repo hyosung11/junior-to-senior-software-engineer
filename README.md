@@ -107,3 +107,18 @@ https://pageweight.imgix.com/
 https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
 
 ### Image Optimizations
+Minimize Images
+- Transparency: PNG
+- Animations: GIF
+- Colorful Images: JPG
+- Simple icons, logos and illustrations: SVG
+- Reduce PNG with TinyPNG
+- Reduce JPG with JPEG-optimizer
+- Choose simple illustrations over highly detailed photos
+- Always lower JPG image quality (30-60%)
+- Resize image based on its display size
+- Display different sized images for different backgrounds
+- Use CDNs like imigx
+- Remove image metadata
+
+jpeg-optimizer.com 
