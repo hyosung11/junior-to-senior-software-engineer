@@ -10,13 +10,18 @@
     <!-- #5 download in the background and don't disrupt the page load if screen doesn't match -->
     <link rel="stylesheet" href="./style.css" media="only screen and (min-width: 500px;)">
 
-    <!-- Internal CSS - Pro: Allows us to not have to request CSS file -->
+    <!-- Internal CSS - Benefit: Allows us to not have to request CSS file -->
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
 
   </head>
   <body>
 
     <!-- Inline CSS -->
-    <h1>How Fast?</h1>
+    <h1 style="background-color: yellow">How Fast?</h1>
     <button>Click Me</button>
 
     <!-- #4 Above the fold loading -->

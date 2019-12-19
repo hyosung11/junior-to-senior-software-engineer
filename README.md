@@ -174,13 +174,14 @@ squoosh.app (Google)
 - Critical Render Path Diagram
 ![CRP](/images/critical-render-path.png)
 
-### Critical Render Path 1
+### Critical Render Path 1 - HTML
 - browser parses data from files and starts creating the DOM
 - as the browser encounters an external resource it starts downloading those and CSS and JS files take higher priority and image files take lower priority
-- load CSS files as soon as possible and JS files as late as possible
+- load CSS files as soon as possible in the <head>
+- Load <script> JS files as late as possible right before </body>
 - JS requires HTML and CSS parsing before it can be run
 
-### Critical Render Path 2
+### Critical Render Path 2 - CSS
 - CSS is called render blocking because we have to wait for the CSSOM to combine with the DOM to complete the render tree.
 
 1. Only load whatever is needed.
@@ -198,3 +199,29 @@ a.important {
   color: pink;
 }
 ```
+
+### Critical Render Path 3 - JavaScript
+- <script> tag immediately requested from the server
+
+1. Load scripts asynchronously
+2. Defer loading of scripts
+3. Minimize DOM manipulation
+4. Avoid long running JavaScript
+
+JavaScript Loading Diagram
+![JSL](/images/JavaScript-Loading-Diagram.png)
+
+<script>
+- app.js
+
+<script async>
+- add to anything that doesn't effect the DOM or CSSOM; external scripts that are not essential to the User Experience (UX)
+- if core functionality requires JS
+
+<script defer>
+- executes after HTML has been parsed
+- if core functionality does NOT require JS
+
+Async & Defer Resource: https://stackoverflow.com/questions/10808109/script-tag-async-defer
+
+### Critical Render Path 4
