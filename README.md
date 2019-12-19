@@ -156,8 +156,20 @@ squoosh.app (Google)
 
 - consider using flexbox and css grid (which are native) instead of dowloading CSS frameworks like Bootstrap or Foundation
 
-- similarly with JavaScript streamline
+- similarly streamline JavaScript; don't add unnecessary libraries
 
 - browsers have a max amount of requests and size of the request that they can make at a time (2-6)
 
 - Max parallel requests per browser https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+
+- Minify your code https://www.minifier.org/
+
+- bundle files into one e.g., https://webpack.js.org/ - a frontend dev tool  
+
+### Critical Render Path
+- DOM: Document Object Model - The DOM is an interface to an HTML document.
+
+- CSSOM: CSS Object Model - The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript.
+
+- Critical Render Path Diagram
+![CRP](images/critcal-render-path.png)
