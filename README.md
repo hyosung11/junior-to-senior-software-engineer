@@ -172,4 +172,4 @@ squoosh.app (Google)
 - CSSOM: CSS Object Model - The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript.
 
 - Critical Render Path Diagram
-![CRP](images/critcal-render-path.png)
+![CRP](/images/critical-render-path.png)
