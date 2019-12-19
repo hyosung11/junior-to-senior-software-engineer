@@ -98,6 +98,8 @@ Shrinking Files
 
 4. SVG - vector graphics; can be expanded and keep clarity
 
+5. HEIC - High Efficiency Image Coding, half the size of JPEG
+
 ### Image File Formats Resources:
 
 https://99designs.com/blog/tips/image-file-types/
@@ -117,8 +119,24 @@ Minimize Images
 - Choose simple illustrations over highly detailed photos
 - Always lower JPG image quality (30-60%)
 - Resize image based on its display size
-- Display different sized images for different backgrounds
+- Display different sized images for different backgrounds - media queries
 - Use CDNs like imigx
 - Remove image metadata
 
-jpeg-optimizer.com 
+jpeg-optimizer.com - didn't work for me
+tinypng.com - jpeg and png files
+squoosh.app (Google)
+
+```@media screen and (min-width: 900px) {
+  body {
+    background: url('./large-background.jpg') no-repeat center center-fixed;
+    background-size: cover;
+  }
+}```
+
+```@media screen and (max-width: 500px) {
+  body {
+    background: url('./large-background.jpg') no-repeat center center-fixed;
+    background-size: cover;
+  }
+}```
