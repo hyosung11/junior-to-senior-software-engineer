@@ -80,3 +80,30 @@ https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap
 - load balancing
 - DB scaling
 - GZIP
+
+### Network Performance
+- Honey I shrunk the files
+- The traveling deliveryman
+
+Shrinking Files
+1. minimize text
+2. minimize images
+
+### Image File Formats
+1. JPG - complex images with lots of colors (can't do transparency), usually larger file size
+
+2. GIF - 2 to 256 colors, with reduced color counts huge file size savings; great for small animations
+
+3. PNG - limited colors, so smaller size, used for logos, can add transparency to them
+
+4. SVG - vector graphics; can be expanded and keep clarity
+
+### Image File Formats Resources:
+
+https://99designs.com/blog/tips/image-file-types/
+
+https://pageweight.imgix.com/
+
+https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
+
+### Image Optimizations
