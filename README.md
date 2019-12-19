@@ -127,16 +127,19 @@ jpeg-optimizer.com - didn't work for me
 tinypng.com - jpeg and png files
 squoosh.app (Google)
 
-```@media screen and (min-width: 900px) {
+Media Queries - responsive design 
+```css
+@media screen and (min-width: 900px) {
   body {
     background: url('./large-background.jpg') no-repeat center center-fixed;
     background-size: cover;
   }
-}```
+}
 
-```@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   body {
     background: url('./large-background.jpg') no-repeat center center-fixed;
     background-size: cover;
   }
-}```
+}
+```
