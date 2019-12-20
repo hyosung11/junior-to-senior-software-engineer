@@ -232,3 +232,51 @@ Async & Defer Resource: https://stackoverflow.com/questions/10808109/script-tag-
 ### Performance Tools Resource List Lesson 52
 - https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10210456#bookmarks
 - prefetching https://css-tricks.com/prefetching-preloading-prebrowsing/
+
+### HTTP/2 - improve network latency
+- node server code example for http2 server
+```JavaScript
+const http2 = require('http2');
+
+const server = http2.createSecureServer(options, (req, res) => {
+  res.setHeader('Content-Type', 'text/html');
+  res.send('ok');
+});
+```
+- HTTP/2 https://developers.google.com/web/fundamentals/performance/http2/
+
+### HTTP/3
+- https://blog.cloudflare.com/http3-the-past-present-and-future/
+
+"Premature optimization is the root of all evil."
+
+## Section 4: React + Redux + Module Bundling
+
+### State of Frontend Development
+- Angular vs React vs Vue
+
+- Which tool is good for the project at hand?
+
+- Angular is a framework: an entire kitchen where everyone works, opinionated with stricter rules
+
+- React is the oven, more flexible than Angular, teaches good JS principles
+
+- Vue is the microwave, simpler and easier to learn
+
+### React
+1. Thinking in Components
+- e.g., atoms -> molecules -> organisms -> templates -> pages
+
+2. One Way Data Flow - from parent to children
+
+3. Virtual DOM
+
+4. Great React Ecosystem: npm, node, babel, webpack, etc.
+
+### Create React App
+- JSX
+- Separation of Concerns in React focus on components
+- Virtual DOM and making changes in the DOM based only on what changes in the component.
+- `class` is a reserved word in JS, so name like this `<div className='f1 tc'>`
+
+- React.Fragment and Semantic HTML http://blog.jmes.tech/react-fragment-and-semantic-html/
