@@ -280,3 +280,14 @@ const server = http2.createSecureServer(options, (req, res) => {
 - `class` is a reserved word in JS, so name like this `<div className='f1 tc'>`
 
 - React.Fragment and Semantic HTML http://blog.jmes.tech/react-fragment-and-semantic-html/
+
+- This is really fun. I like doing this.
+
+- State: a description of your app; an object that describes your application; state is able to change. Usually lives in the parent component.
+
+- Props (properties)are just inputs that never change. Props are simply things that come out of state.
+
+- A parent feeds state into a child component and as soon as the child component receives a state it's a property. The child can never change that property.  
+
+One Way Data Flow
+![data flow](/images/one-way-data-flow.png)
