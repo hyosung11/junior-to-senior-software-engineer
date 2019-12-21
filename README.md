@@ -287,7 +287,33 @@ const server = http2.createSecureServer(options, (req, res) => {
 
 - Props (properties)are just inputs that never change. Props are simply things that come out of state.
 
+- children
+
 - A parent feeds state into a child component and as soon as the child component receives a state it's a property. The child can never change that property.  
 
 One Way Data Flow
 ![data flow](/images/one-way-data-flow.png)
+
+- JSON Placeholder https://jsonplaceholder.typicode.com/
+
+- Smart Components have state
+
+-lifecycle methods https://reactjs.org/docs/react-component.html
+
+Examples (executed in order)
+
+1. Mounting
+- constructor()
+- render()
+componentDidMount()
+
+2. Updating
+- render()
+- componentDidUpdate()
+
+3. Unmounting
+- componentWillUnmount()
+
+`yarn build` optimizes code for production
+
+### Error Boundary in React 
