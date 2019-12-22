@@ -319,3 +319,18 @@ componentDidMount()
 ### Error Boundary in React
 
 ### Introduction to Redux and Webpack
+- bottlenecks for JS
+
+### State Management
+- can think of state as memory
+- state describes how the app should look
+- Redux: one massize object that holds state for our entire app and passes props down to the components.
+```JavaScript
+state = {
+  admin: '',
+  isSignedInAs: 'user',
+  user: 'Mitch'
+}
+```
+
+### Redux 
