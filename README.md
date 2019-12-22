@@ -333,4 +333,14 @@ state = {
 }
 ```
 
-### Redux 
+### Redux
+- Good for managing large state.
+- Useful for sharing data between containers.
+- Predictable state management using the three principles
+
+#### The Three Principles of State Management
+1. Single source of truth: one big object to take care of state 
+
+2. State is read only
+
+3. Changes using pure functions
