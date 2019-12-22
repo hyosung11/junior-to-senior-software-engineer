@@ -336,7 +336,7 @@ state = {
 ### Redux
 - Good for managing large state.
 - Useful for sharing data between containers.
-- Predictable state management using the three principles
+- Predictable state management using the three principles:
 
 #### The Three Principles of State Management
 1. Single source of truth: one big object to take care of state
@@ -354,3 +354,30 @@ action -> controller -> models(s) <--> view(s)
 - Architect apps so that as they grow everything is easier to reason about and understand.
 
 - Redux === this.state (of React)
+
+Redux Data Flow
+![redux](/images/redux-data-flow.png)
+
+### React + Redux Popular Resources
+#### Libraries
+- React Router https://reacttraining.com/react-router/web/guides/philosophy
+- Ramda: a practical functional library for JS programmers - https://ramdajs.com/
+- Lodash: a modern JS utility library delivering modularity, performance & extras https://lodash.com/
+
+#### Styling
+- glamorous: maintainable CSS with React https://glamorous.rocks/
+- styled components: visual primitives for the component age https://www.styled-components.com/
+- CSS Modules: https://github.com/css-modules/css-modules
+
+#### Framework
+- Gatsby: framework based on React that helps developers build blazing fast websites and apps https://www.gatsbyjs.org/
+- Next.js: for server-side rendering of apps https://nextjs.org/
+
+#### Reusable Components
+- Material-UI: react components for faster and easier web development https://material-ui.com/
+- Semantic UI: Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML. https://semantic-ui.com/
+
+#### Tools
+- Reselect: Simple “selector” library for Redux (and others) inspired by getters in NuclearJS, subscriptions in re-frame and this proposal from speedskater. https://github.com/reduxjs/reselect
+- Redux-Saga: is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures. https://redux-saga.js.org/
+- immutable-js: Immutable persistent data collections for Javascript which increase efficiency and simplicity. https://github.com/immutable-js/immutable-js
