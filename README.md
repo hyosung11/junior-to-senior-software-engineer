@@ -339,8 +339,18 @@ state = {
 - Predictable state management using the three principles
 
 #### The Three Principles of State Management
-1. Single source of truth: one big object to take care of state 
+1. Single source of truth: one big object to take care of state
 
-2. State is read only
+2. State is read only: immutability of the object that holds state.
 
-3. Changes using pure functions
+3. Changes using pure functions: action -> reducer -> store -> make changes
+
+#### Flux Pattern - one-way data flow
+action -> dispatcher -> store (state) -> view
+
+#### MVC - Models, Views, Controllers
+action -> controller -> models(s) <--> view(s)
+
+- Architect apps so that as they grow everything is easier to reason about and understand.
+
+- Redux === this.state (of React)
