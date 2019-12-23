@@ -409,3 +409,13 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - What solution is best and what will have the longest lasting value.
 
 ### Code Optimization
+- parse and compile
+- Angular AoT (Ahead-of-Time) compilation
+
+#### Goals
+1. Time to first meaningful paint
+2. Time to interactive
+
+### Code Splitting aka progressive bootstrapping
+- vendor file
+- Production Build: `$ npm run build`
