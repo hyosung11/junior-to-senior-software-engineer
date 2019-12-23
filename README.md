@@ -400,3 +400,5 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - ESLint: find and fix problems in your JavaScript code https://eslint.org/
 
 ### Parcel
+
+## Section 5: Performance Part 2
