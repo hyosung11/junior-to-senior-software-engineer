@@ -381,3 +381,20 @@ Redux Data Flow
 - Reselect: Simple “selector” library for Redux (and others) inspired by getters in NuclearJS, subscriptions in re-frame and this proposal from speedskater. https://github.com/reduxjs/reselect
 - Redux-Saga: is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures. https://redux-saga.js.org/
 - immutable-js: Immutable persistent data collections for Javascript which increase efficiency and simplicity. https://github.com/immutable-js/immutable-js
+
+### Module Bundlers: remember that these always change
+- webpack: bigger projects https://webpack.js.org/
+- parcel: small project without the need for configuration https://parceljs.org/
+- rollup.js: when rolling out own npm packages https://rollupjs.org/guide/en/
+
+
+### webpack
+- bundles your assets: modules with dependencies -> static assets
+
+### Babel is a JavaScript compiler https://babeljs.io/
+
+### Resources: Webpack 4 Configurator
+Configuration shouldn't be hard. As time goes one, I believe we will move towards less and less configuration. Here is a great tool to make configuring your Webpack easy. Enjoy playing with it! http://web.jakoblind.no/webpack-config/
+
+### ESLint
+- ESLint: find and fix problems in your JavaScript code https://eslint.org/
