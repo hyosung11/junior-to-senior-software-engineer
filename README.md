@@ -408,4 +408,4 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - Think critically about how our programs work.
 - What solution is best and what will have the longest lasting value.
 
-### Code Optimization 
+### Code Optimization
