@@ -405,5 +405,7 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 ### Parcel
 
 ## Section 5: Performance Part 2
+- Think critically about how our programs work.
+- What solution is best and what will have the longest lasting value.
 
-### Progressive Web Apps
+### Code Optimization 
