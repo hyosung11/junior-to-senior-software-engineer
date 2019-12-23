@@ -3,6 +3,9 @@ Udemy's The Complete Junior to Senior Web Developer Roadmap (2020)
 
 ## Section 1: Introduction
 
+- Frontend <--> Backend
+![fullstack](/images/fullstack.png)
+
 ## Section 2: SSH (Secure Shell)
 - also HTTP, HTTPS, FTP protocols (communication rules between machines)
 - SSH provides secure encrypted data exchange over a shell
@@ -402,3 +405,5 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 ### Parcel
 
 ## Section 5: Performance Part 2
+
+### Progressive Web Apps
