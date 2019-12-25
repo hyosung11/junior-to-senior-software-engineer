@@ -409,9 +409,3 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - What solution is best and what will have the longest lasting value.
 
 ### Code Optimization
-
-### Code Splitting
-- How can we ship the least amount of JavaScript to the user.
-- route based chunking (good way to do this and used more often) https://reactjs.org/docs/code-splitting.html
-- component based chunking (e.g., very large homepage) https://jamie.build/react-loadable.html
-- react-loadable was the recommended way for React code splitting for a long time. However, today it is not maintained any more and it is not compatible with Webpack v4+ and Babel v7+. If you use it, it is recommended to migrate to React.lazy or @loadable/component.
