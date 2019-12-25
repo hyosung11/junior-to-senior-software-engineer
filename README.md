@@ -157,7 +157,7 @@ squoosh.app (Google)
 ### Delivery Optimizations - The traveling deliveryman deeper dive
 - reduce the number of deliveries that have to be made
 
-- consider using flexbox and css grid (which are native) instead of dowloading CSS frameworks like Bootstrap or Foundation
+- consider using flexbox and css grid (which are native) instead of downloading CSS frameworks like Bootstrap or Foundation
 
 - similarly streamline JavaScript; don't add unnecessary libraries
 
@@ -327,7 +327,7 @@ componentDidMount()
 ### State Management
 - can think of state as memory
 - state describes how the app should look
-- Redux: one massize object that holds state for our entire app and passes props down to the components.
+- Redux: one massive object that holds state for our entire app and passes props down to the components.
 ```JavaScript
 state = {
   admin: '',
@@ -409,3 +409,9 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - What solution is best and what will have the longest lasting value.
 
 ### Code Optimization
+
+### Code Splitting
+- How can we ship the least amount of JavaScript to the user.
+- route based chunking (good way to do this and used more often) https://reactjs.org/docs/code-splitting.html
+- component based chunking (e.g., very large homepage) https://jamie.build/react-loadable.html
+- react-loadable was the recommended way for React code splitting for a long time. However, today it is not maintained any more and it is not compatible with Webpack v4+ and Babel v7+. If you use it, it is recommended to migrate to React.lazy or @loadable/component.
