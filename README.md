@@ -461,9 +461,51 @@ Why did you update? https://github.com/maicki/why-did-you-update
 - Code Splitting
 - Tree Shaking: removes any unused code (webpack)
 https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/
+
 2. Avoid blocking main thread
 
 3. Avoid Memory Leaks - avoid adding memory into our apps like unused event listeners
 
 4. Avoid multiple re-rendering
 - minimize the number of DOM manipulations
+
+### Progressive Web Apps
+- Native (mobile) apps are designed to work offline
+- Progressive web apps: made to be more like native apps
+- https://whatwebcando.today/
+- React Native for mobile apps
+- already built-in to create react-app
+- lighthouse chrome extension
+
+### Progressive Web App Resources
+- "I built a PWA and published it in 3 app stores. Here's what I learned." http://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/
+
+- Progressive Web Apps on iOS are here https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7
+
+- Appscope https://appsco.pe/
+
+### PWA
+- HTTPS
+- App Manifest
+- Service Workers
+
+### PWA - HTTPS
+- PWA checklist https://developers.google.com/web/progressive-web-apps/checklist
+- Let's Encrypt is a free, automated, and open Certificate Authority https://letsencrypt.org/
+- Cloudflare https://www.cloudflare.com/
+
+### PWA - App Manifest
+- `manifest.json`
+- Viewport Meta Tag https://developers.google.com/web/tools/lighthouse/audits/has-viewport-meta-tag
+- Favicon Generator https://realfavicongenerator.net/
+- load a splash screen and icon instead of a white screen
+
+### PWA - Service Workers
+- a script that your browser runs in the background separate from the webpage web app.
+- another worker that you have in the browser working in the background as a programmable proxy that allows use offline
+- isServiceWorkerready? https://jakearchibald.github.io/isserviceworkerready/
+
+Service Worker Data Flow
+![service-worker](/images/service-worker.png)
+
+- Add service worker into an existing create react app https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa
