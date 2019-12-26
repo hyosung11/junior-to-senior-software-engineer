@@ -422,3 +422,48 @@ Configuration shouldn't be hard. As time goes one, I believe we will move toward
 - React Developer Tools in Chrome (Highlight Updates)
 - To view performance metrics for your react app:
 Append `?react_perf` to your local server URL (e.g. `localhost:3000/?react_perf`) and visit that URL in a browser.
+
+### React Performance Optimizations 2
+- Shallow comparison
+```JavaScript
+shouldComponentUpdate(nextProps, nextState) {
+  if (this.state.count !== nextState.count) {
+    return true;
+  }
+  return false;
+}
+
+import React, { PureComponent } from 'react';
+
+class CounterButton extends PureComponent {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+  ```
+- Why did you update https://www.npmjs.com/package/why-did-you-update
+
+Resources: React Performance 2
+To get familiar with the asynchronous nature of setState(), have a look at:
+
+https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3
+
+https://vasanthk.gitbooks.io/react-bits/patterns/19.async-nature-of-setState.html
+
+Finally, have a look at this tool mentioned in the previous video:
+
+Why did you update? https://github.com/maicki/why-did-you-update
+
+### Optimizing Code Review
+1. Only load what's needed:
+- Code Splitting
+- Tree Shaking: removes any unused code (webpack)
+https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/
+2. Avoid blocking main thread
+
+3. Avoid Memory Leaks - avoid adding memory into our apps like unused event listeners
+
+4. Avoid multiple re-rendering
+- minimize the number of DOM manipulations
