@@ -551,4 +551,12 @@ Service Worker Data Flow
 #### Assertion Library: to test that the variables contain the expected value.
 1. Jasmine - comes with its own asssertion library
 2. Jest - also comes with its own assertion library
-3. Chai which pairs with Mocha
+3. Chai which pairs with Mocha (BDD - Behavioral Driven Development) - https://www.chaijs.com/
+
+#### Test Runner - allows us to run our tests
+1. Jasmine includes test runner
+2. Jest also includes test runner
+3. Mocha has a test runner
+4. Karma another test runner allows testing on the browser
+
+- Puppeteer: a headless browser; a node library which provides high level API to control the headless version of the browser 
