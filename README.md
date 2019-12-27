@@ -514,3 +514,41 @@ Service Worker Data Flow
 - https://www.w3.org/standards/webdesign/accessibility
 
 ### Tools to improve front end performance: https://progressivetooling.com/
+
+## Section 6: Testing
+- A method in software development where individual units of source code, assets, or programs are tested to see whether they work properly.
+- another file in your project that runs in developmen only and not in production.
+- TDD Test Driven Development: writing tests even before you actually write your code so that you write code based on the tests that you provide.
+
+### Types of Tests
+1. Unit Tests
+2. Integration Tests
+3. Automation Tests
+
+#### Unit Tests
+- most common and easiest to implement
+- work on these kinds of tests 90% of the time
+- tests individual functions or classes
+- important to have in your application
+
+#### Integration Tests
+- how different pieces of code work together.
+- e.g., whether the database works with the express app.
+
+#### Automation Tests or UI Tests
+- testing real life scenarios on the browser
+
+### Testing Libraries
+![testing-libraries](/images/testing-libraries.png)
+
+- the scaffolding giving us the ability to use some function calls and some new methods to actually write our tests.
+
+#### Top Three Libraries: npm install libraries
+1. Jasmine
+2. Jest
+3. Mocha
+
+#### Assertion Library: to test that the variables contain the expected value.
+1. Jasmine - comes with its own asssertion library
+2. Jest - also comes with its own assertion library
+3. Chai which pairs with Mocha
