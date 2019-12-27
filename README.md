@@ -509,3 +509,8 @@ Service Worker Data Flow
 ![service-worker](/images/service-worker.png)
 
 - Add service worker into an existing create react app https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa
+
+### Accessibility
+- https://www.w3.org/standards/webdesign/accessibility
+
+### Tools to improve front end performance: https://progressivetooling.com/
