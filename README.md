@@ -598,4 +598,13 @@ Service Worker Data Flow
 
 ### Integration Tests
 - all about cross communication between different units of code
-- Integration tests as connecting components to see how they work together. 
+- Integration tests as connecting components to see how they work together.
+- More expensive, slower, take longer to write and have a lot of moving parts.
+
+### Automation Tests (aka end to end testing)
+- UI tests to simulate user behavior and make sure these scenarios actually work from the ponit of view of an end user.
+- hard to implement
+- sample list of services: Nightmare, TestCafe, webdriver, Cypress
+
+### Testing Development
+![testing-development](/images/testing-development.png)
