@@ -607,4 +607,4 @@ Service Worker Data Flow
 - sample list of services: Nightmare, TestCafe, webdriver, Cypress
 
 ### Testing Development
-![testing-development](/images/testing-development.png)
+![test-development](/images/testing-development.png)
