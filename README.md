@@ -594,4 +594,8 @@ Service Worker Data Flow
 - one of the biggest benefits of functional programming versus object-oriented programming
 - a pure function is a function that has no side effects like affecting another part of a program; deterministic
 - most React components are mostly pure functions
-- don't test the contract: the contract is the connection between things. 
+- don't test the contract: the contract is the connection between things.
+
+### Integration Tests
+- all about cross communication between different units of code
+- Integration tests as connecting components to see how they work together. 
