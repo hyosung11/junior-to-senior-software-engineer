@@ -559,4 +559,39 @@ Service Worker Data Flow
 3. Mocha has a test runner
 4. Karma another test runner allows testing on the browser
 
-- Puppeteer: a headless browser; a node library which provides high level API to control the headless version of the browser 
+- Puppeteer: a headless browser; a node library which provides high level API to control the headless version of the browser
+
+-jsdom {;} a fake JavaScript version of the DOM
+
+#### Mocks, Spies and Stubs
+1. Jasmine comes with this
+2. Jest comes with this
+3. Sinon.js works with Mocha https://sinonjs.org/
+
+-  Spies provide information about functions: how many times they were called, in what cases, and by whom.
+- Stubs replace certain functions with a function to ensure that the expected behavior happens.
+- Mocks fake a function or a behavior to test differentr parts of a process. Good for integration tests.
+
+#### Code Coverage
+- Istanbul library: gives a report of where tests have been implemented and where tests are missing.
+
+#### Top 5 JavaScript Testing Frameworks
+- https://www.browserstack.com/guide/top-javascript-testing-frameworks
+1. Mocha
+2. Jest (from facebook)
+3. Jasmine
+4. Karma
+5. Puppeteer (Google)
+
+#### Unique React Tools
+- Snapshot from Jest
+- Enzyme (Airbnb)
+
+### Unit Tests
+- cover all small pure functions of an application
+- good to have small pure functions that take an input and return an output and do one thing really really well
+- main principle of functional programming.
+- one of the biggest benefits of functional programming versus object-oriented programming
+- a pure function is a function that has no side effects like affecting another part of a program; deterministic
+- most React components are mostly pure functions
+- don't test the contract: the contract is the connection between things. 
