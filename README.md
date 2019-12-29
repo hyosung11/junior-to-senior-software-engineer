@@ -627,4 +627,8 @@ configure({ adapter: new Adapter() });
 - `import { shallow, mount, render } from 'enzyme';
 import Card from './Card';
 `
-- 90% of the time use shallow 
+- 90% of the time use `shallow`
+- `mount` does a full DOM render
+- `render` to a static HTML
+
+Enzyme API Reference https://airbnb.io/enzyme/docs/api/
