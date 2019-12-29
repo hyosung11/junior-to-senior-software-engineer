@@ -610,3 +610,21 @@ Service Worker Data Flow
 ![testing-development](/images/testing-development.png)
 
 ### Asynchronous Tests
+- Jest cheat sheet https://github.com/sapegin/jest-cheat-sheet
+
+### Mocks and Spies
+- Mock: fake the function
+
+### Introduction to Enzyme
+- from Airbnb https://airbnb.io/enzyme/
+
+```JavaScript
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
+```
+- `import { shallow, mount, render } from 'enzyme';
+import Card from './Card';
+`
+- 90% of the time use shallow 
