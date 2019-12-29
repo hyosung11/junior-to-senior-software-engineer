@@ -1,5 +1,5 @@
 # Junior to Senior Software Engineer
-Udemy's The Complete Junior to Senior Web Developer Roadmap (2020)
+Udemy's The Complete Junior to Senior Web Developer Roadmap (2020) by Andrei Neagoie
 
 ## Section 1: Introduction
 
@@ -288,7 +288,7 @@ const server = http2.createSecureServer(options, (req, res) => {
 
 - State: a description of your app; an object that describes your application; state is able to change. Usually lives in the parent component.
 
-- Props (properties)are just inputs that never change. Props are simply things that come out of state.
+- Props (properties) are just inputs that never change. Props are simply things that come out of state.
 
 - children
 
@@ -308,7 +308,7 @@ Examples (executed in order)
 1. Mounting
 - constructor()
 - render()
-componentDidMount()
+- componentDidMount()
 
 2. Updating
 - render()
@@ -352,7 +352,7 @@ state = {
 action -> dispatcher -> store (state) -> view
 
 #### MVC - Models, Views, Controllers
-action -> controller -> models(s) <--> view(s)
+action -> controller -> model(s) <--> view(s)
 
 - Architect apps so that as they grow everything is easier to reason about and understand.
 
@@ -608,3 +608,5 @@ Service Worker Data Flow
 
 ### Testing Development
 ![testing-development](/images/testing-development.png)
+
+### Asynchronous Tests
