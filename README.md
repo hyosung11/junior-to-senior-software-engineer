@@ -670,3 +670,37 @@ Enzyme API Reference https://airbnb.io/enzyme/docs/api/
 a = 100`
 
 - in dynamically typed languages type checking is done during runtime
+
+#### (Main) Pros of Statically typed languages
+1. Are self-documenting
+```JavaScript
+function sum(a: number, b: number) {
+  return a + b;
+}
+sum('hello', null)
+```
+
+2. Auto completion in text editor
+
+3. Less bugs in production because catch them early
+
+#### Cons of Statically Typed Languages
+1. Code is harder to read because more complex
+
+2. Can forget to write good tests because you trust the statically typed language to have less bugs.
+
+3. Slower development process because you have another step
+
+### Weakly vs Strongly Typed
+- JavaScript is weakly typed (type coercion):
+```JavaScript
+var a = "boooyaaa"
+a + 17
+"boooyaaa17"
+```
+- Python is strongly typed
+```Python
+var = "boooyaaa"
+var + 17
+# Throws error
+```
