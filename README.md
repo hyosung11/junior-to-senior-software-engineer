@@ -658,11 +658,15 @@ Enzyme API Reference https://airbnb.io/enzyme/docs/api/
 - Lean Testing or Why Unit Tests are Worse than You Think https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
 
 ## Section 7: TypeScript
+### Languages
+![languages](/images/languages-spectrum.png)
 
 ### Dynamic vs Static Typing
 - JavaScript is a dynamic typed: don't have to say what type of variable the variable a is going to be:
 `var a = 100;`
 
 - C++ is a statically typed language: have to say what kind of type the variable is going to be:
-`in a;
+`int a;
 a = 100`
+
+- in dynamically typed languages type checking is done during runtime
