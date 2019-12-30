@@ -634,5 +634,15 @@ import Card from './Card';
 Enzyme API Reference https://airbnb.io/enzyme/docs/api/
 
 ### Snapshot Testing
+- Jest Docs Regarding Snapshot Testing https://jestjs.io/docs/en/snapshot-testing
+- React Docs on Test Renderer https://reactjs.org/docs/test-renderer.html
+- Enzyme Cheat Sheet Setup https://devhints.io/enzyme
 
-### Code Coverage 
+### Code Coverage
+`npm test -- --coverage`
+
+### Testing Stateful Components
+
+### Testing Connected Components
+
+### Testing Reducers 
