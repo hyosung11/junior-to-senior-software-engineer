@@ -632,3 +632,7 @@ import Card from './Card';
 - `render` to a static HTML
 
 Enzyme API Reference https://airbnb.io/enzyme/docs/api/
+
+### Snapshot Testing
+
+### Code Coverage 
