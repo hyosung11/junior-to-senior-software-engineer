@@ -645,4 +645,7 @@ Enzyme API Reference https://airbnb.io/enzyme/docs/api/
 
 ### Testing Connected Components
 
-### Testing Reducers 
+### Testing Reducers
+- checking our inputs with our outputs
+
+### Testing Actions
