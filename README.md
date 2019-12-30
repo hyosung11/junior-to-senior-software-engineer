@@ -696,7 +696,7 @@ sum('hello', null)
 ```JavaScript
 var a = "boooyaaa"
 a + 17
-"boooyaaa17"
+// "boooyaaa17"
 ```
 - Python is strongly typed
 ```Python
@@ -704,3 +704,16 @@ var = "boooyaaa"
 var + 17
 # Throws error
 ```
+
+### Static Typing in JavaScript
+#### Tools
+1. flow https://flow.org/ (facebook) - static type checker; built into create-react-app https://flow.org/en/docs/tools/create-react-app/
+2. elm https://elm-lang.org/; own language
+3. Reason ML https://reasonml.github.io/ (facebook); separate language
+4. TypeScript https://www.typescriptlang.org/ (microsoft); a superset of JavaScript with its own compiler
+
+- Their goal is to make javascript a little bit nicer a little less buggy and introduce static typing
+
+- TypeScript the most popular and flow more popular than the newer elm and Reason ML
+
+- Angluar is built with TypeScript and as an Angular developer you're using TypeScript by default. Also, React community is using TypeScript.
