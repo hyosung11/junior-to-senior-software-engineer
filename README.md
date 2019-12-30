@@ -649,3 +649,10 @@ Enzyme API Reference https://airbnb.io/enzyme/docs/api/
 - checking our inputs with our outputs
 
 ### Testing Actions
+
+### Resources
+- Nock https://www.npmjs.com/package/nock
+
+- SuperTest https://www.npmjs.com/package/supertest
+
+- Lean Testing or Why Unit Tests are Worse than You Think https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
