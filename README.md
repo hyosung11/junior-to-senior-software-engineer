@@ -742,3 +742,5 @@ var + 17
 - Third Party Libraries
 
 ### Create React App with TypeScript https://create-react-app.dev/docs/adding-typescript/
+
+## Section 8: SPA vs Server Side Rendering
