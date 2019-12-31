@@ -799,3 +799,45 @@ var + 17
 - Create Next App `$ npx create-next-app`
 
 - Understand the JavaScript SEO basics https://developers.google.com/search/docs/guides/javascript-seo-basics
+
+## Section 9: Security
+
+### Star of Security
+![security](/images/star-of-security.png)
+
+### Injections: the most common type of attack (adding unwanted code)
+- PSequel http://www.psequel.com/ (seems like old tech from 2016, I couldn't get it to work.)
+- SQL Injection demo https://www.hacksplaining.com/exercises/sql-injection
+- Find SQL Injection Vulnerabilities https://www.netsparker.com/scan-website-sql-injection/?utm_source=hacksplaining&utm_medium=post&utm_campaign=quizlink
+
+```SQL
+CREATE TABLE sqlinjection (
+  id serial PRIMARY KEY,
+  email text UNIQUE NOT NULL
+);
+```
+- Running an SQL Injection Attack - Computerphile https://www.youtube.com/watch?v=ciNHn38EyRc
+
+Sample SQL injection code:
+- `INSERT INTO sqlinjection (email) VALUES (; DROP TABLE sqlinjection; --);`
+- `' or 1=1--`
+- `'; DROP TABLE users; --`
+
+#### Fixes for Injections
+1. Sanitize input
+2. Parametrize Queries
+3. Knex.js or other ORMS
+
+##### Sanitize Input
+- white list philosophy (or black list)
+- only allow data of the expected type
+
+##### Parameterize Queries (aka Prepared Statements)
+- precompile SQL statements so can only provide the parameters
+- object relational mappers: provide the requisite SQL statements
+- Example: `function sqlSelect(name, email, id) {
+  if(name === number)
+}`
+
+##### Object Relational Mappers (ORM)
+- Knex.js http://knexjs.org/
