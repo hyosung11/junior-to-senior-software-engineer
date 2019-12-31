@@ -743,4 +743,23 @@ var + 17
 
 ### Create React App with TypeScript https://create-react-app.dev/docs/adding-typescript/
 
-## Section 8: SPA vs Server Side Rendering
+## Section 8: SPA (CSR) vs Server Side Rendering
+
+### Two Major Issues with SPA
+- More JS is sent to the client on the initial request, so pages become more bloated and are slower to load.
+
+- Harder to do good SEO on a SPA.
+
+### Client-side Rendering (CSR) vs Server-side Rendering (SSR)
+
+### Server Side Rendering React
+- see server.js file
+
+- Need React on both the server and the browser
+
+#### Server Side
+`ReactDOMServer.renderToNodeStream()`
+`ReactDOMServer.renderToString()`
+
+#### Browser Side
+`ReactDOM.hydrate()`
