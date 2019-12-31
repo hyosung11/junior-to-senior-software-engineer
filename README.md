@@ -763,3 +763,29 @@ var + 17
 
 #### Browser Side
 `ReactDOM.hydrate()`
+
+
+### CSR
+#### Pros
+- rich interactions
+- faster response
+- great user experience as a web application after initial load
+
+#### Cons
+- low SEO potential
+- longer initial load
+
+### SSR
+#### Pros
+- static sites
+- SEO
+- initial page load
+
+#### Cons
+- full page reloads
+- slower page rendering
+- # requests to server
+
+### SSR React Libraries
+- Gatsby: Blazing-fast static site generator for React https://www.gatsbyjs.org/
+- next.js: full dynamic tool to build rich apps https://nextjs.org/
