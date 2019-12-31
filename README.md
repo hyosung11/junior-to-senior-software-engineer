@@ -780,12 +780,22 @@ var + 17
 - static sites
 - SEO
 - initial page load
+- (progressive rendering)
 
 #### Cons
 - full page reloads
 - slower page rendering
-- # requests to server
+- many requests to server
 
 ### SSR React Libraries
 - Gatsby: Blazing-fast static site generator for React https://www.gatsbyjs.org/
 - next.js: full dynamic tool to build rich apps https://nextjs.org/
+
+- Server-side vs Client-side Routing https://medium.com/@wilbo/server-side-vs-client-side-routing-71d710e9227f
+
+- World-Class Static Hosting https://zeit.co/
+
+#### Next.js
+- Create Next App `$ npx create-next-app`
+
+- Understand the JavaScript SEO basics https://developers.google.com/search/docs/guides/javascript-seo-basics
