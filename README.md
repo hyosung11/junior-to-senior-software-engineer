@@ -737,3 +737,8 @@ var + 17
 
 ### Type Assertion
 - https://basarat.gitbooks.io/typescript/docs/types/type-assertion.html
+
+### Definitely Typed https://definitelytyped.org/
+- Third Party Libraries
+
+### Create React App with TypeScript https://create-react-app.dev/docs/adding-typescript/
