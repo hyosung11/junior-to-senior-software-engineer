@@ -841,3 +841,33 @@ Sample SQL injection code:
 
 ##### Object Relational Mappers (ORM)
 - Knex.js http://knexjs.org/
+
+### PostgreSQL https://coderwall.com/p/ncxdlw/start-and-stop-postgresql-manually-on-mac-os-x
+- Start
+`pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
+
+- Stop
+`hyosung11@HyoSungs-iMac projects % pg_ctl -D /usr/local/var/postgres stop -s -m fast
+2019-12-31 15:47:57.344 EST [53638] LOG:  received fast shutdown request
+2019-12-31 15:47:57.344 EST [53638] LOG:  aborting any active transactions
+2019-12-31 15:47:57.345 EST [53638] LOG:  background worker "logical replication launcher" (PID 53645) exited with exit code 1
+2019-12-31 15:47:57.345 EST [53640] LOG:  shutting down
+2019-12-31 15:47:57.354 EST [53638] LOG:  database system is shut down
+hyosung11@HyoSungs-iMac projects %`
+
+### 3rd Party Libraries
+`npm install -g nsp` - deprecated and shut down as of 9/30/2019
+`nsp check # audit package.json` https://blog.npmjs.org/post/175511531085/the-node-security-platform-service-is-shutting
+
+`npm install -g snyk`
+`snyk test # audit node_modules directory`
+
+'npm audit --audit-level high' https://medium.com/npm-inc/announcing-npm-6-5d0b1799a905
+
+### Logging: getting information from your machine about what's happening  
+- insufficient logging is a big security issue
+- good logging helps to detect issues more quickly with your product
+
+#### Logging Tools
+- winston https://www.npmjs.com/package/winston - souped up console.log
+- morgan https://www.npmjs.com/package/morgan - monitor server activity 
