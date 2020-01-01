@@ -916,3 +916,10 @@ prevent using Content Security Policy: set by npm packages
 2. To learn a little bit more about HTTP Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 3. HTTP Header Fields: https://www.tutorialspoint.com/http/http_header_fields.htm
 4. Helmet package documentation: https://github.com/helmetjs/helmet
+
+### Access Control
+- controlling what authenticated users are allowed to do
+- Principal of least privilege: give only enough so that people can do their work.
+
+#### CORS: Cross-origin Resource Sharing
+- https://www.npmjs.com/package/cors
