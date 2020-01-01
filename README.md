@@ -903,3 +903,7 @@ prevent using Content Security Policy: set by npm packages
 - Content Security Policy https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - Cookies with HTTPOnly and Secure headers https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
 - Cross-site scripting for dummies https://medium.com/hackernoon/cross-site-scripting-for-dummies-be30f76fad09
+
+### Code Secrets
+- Environmental Variables: dotenv `.env` https://www.npmjs.com/package/dotenv
+- Commit History: don't commit passwords, API keys, etc. 
