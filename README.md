@@ -937,3 +937,9 @@ prevent using Content Security Policy: set by npm packages
 
 ### Don't Trust Anyone
 ![darth-vader](/images/don't-trust-anyone.png)
+
+- ratelimiter https://www.npmjs.com/package/ratelimiter
+
+### Authentication
+- need to confirm and be able to trust users
+- e.g., multi-factor authentication 
