@@ -906,4 +906,13 @@ prevent using Content Security Policy: set by npm packages
 
 ### Code Secrets
 - Environmental Variables: dotenv `.env` https://www.npmjs.com/package/dotenv
-- Commit History: don't commit passwords, API keys, etc. 
+- Commit History: don't commit passwords, API keys, etc.
+
+### Secure Headers
+- e.g., `npm install helmet` https://www.npmjs.com/package/helmet for express
+
+#### Secure Headers Resources
+1. If you are new to HTTP: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
+2. To learn a little bit more about HTTP Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+3. HTTP Header Fields: https://www.tutorialspoint.com/http/http_header_fields.htm
+4. Helmet package documentation: https://github.com/helmetjs/helmet
