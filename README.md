@@ -923,3 +923,17 @@ prevent using Content Security Policy: set by npm packages
 
 #### CORS: Cross-origin Resource Sharing
 - https://www.npmjs.com/package/cors
+
+### Data Management
+- always have backups
+- never have a single point of failure
+- limit sensitive data exposure: e.g., encrypt data in transition
+
+#### Encryption
+- hashing passwords: bcrypt, scrypt, Aragon2
+- pgcrypto: encrypt a few columns of your database   
+- node.bcrypt.js https://www.npmjs.com/package/bcrypt
+- Andrei's article from 2017 https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/
+
+### Don't Trust Anyone
+![darth-vader](/images/don't-trust-anyone.png)
