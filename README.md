@@ -1005,3 +1005,6 @@ prevent using Content Security Policy: set by npm packages
  ![development](/images/development.png)
 
 ![production](/images/production.png)
+
+#### Dockerfile Resource
+- To learn more about `bin/bash`  discussed in the previous video, have a look at this resource. https://unix.stackexchange.com/questions/398543/what-are-the-contents-of-bin-bash-and-what-do-i-do-if-i-accidentally-overwrote
