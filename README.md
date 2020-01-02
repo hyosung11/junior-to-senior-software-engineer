@@ -951,12 +951,32 @@ prevent using Content Security Policy: set by npm packages
 #### OWASP https://www.owasp.org/index.php/Main_Page
 
 ## Section 10: Code Analysis
+
+### Setting Up Your Environment
 - knex.js: Knex.js is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use. https://knexjs.org/
 - knex.js https://www.npmjs.com/package/knex
 
 - PostgreSQL Database
-`hyosung11@HyoSungs-iMac ~ % brew services start postgresql`
+`brew install postgresql`
+`brew services start postgresql`
 `==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)`
+`brew services stop postgresql`
+`createdb 'dbname'`
+`psql 'dbname'`
+`psql (12.1)`
+`Type "help" for help.`
+`test=#`
+`\q` - quit
+
+### Brew
+`brew update`
+`brew doctor`
+`rm '/usr/local/bin/node'`
 
 ### Full Stack Developer
 ![fullstack](/images/fullstack-developer.png)
+
+### How to Analyze Code
+- don't criticize code that's new to you
+- when reading a codebase new to you think about high level concepts, how everything fits together and how the dots are connected
+- start with the big picture and then narrow your focus
