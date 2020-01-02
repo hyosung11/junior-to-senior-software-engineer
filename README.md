@@ -942,4 +942,21 @@ prevent using Content Security Policy: set by npm packages
 
 ### Authentication
 - need to confirm and be able to trust users
-- e.g., multi-factor authentication 
+- e.g., multi-factor authentication
+
+#### Hacking https://www.hacksplaining.com/lessons
+
+#### Personal Security https://watchyourhack.com/
+
+#### OWASP https://www.owasp.org/index.php/Main_Page
+
+## Section 10: Code Analysis
+- knex.js: Knex.js is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use. https://knexjs.org/
+- knex.js https://www.npmjs.com/package/knex
+
+- PostgreSQL Database
+`hyosung11@HyoSungs-iMac ~ % brew services start postgresql`
+`==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)`
+
+### Full Stack Developer
+![fullstack](/images/fullstack-developer.png)
