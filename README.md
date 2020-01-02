@@ -980,3 +980,28 @@ prevent using Content Security Policy: set by npm packages
 - don't criticize code that's new to you
 - when reading a codebase new to you think about high level concepts, how everything fits together and how the dots are connected
 - start with the big picture and then narrow your focus
+
+## Section 11: Docker
+- how do we run our programs and apps in all environments possible?
+
+### Containers
+- nice, small boxes that can be run anywhere instead of a monolithic app that does everything.
+- products composed of multiple layers (aka services)
+- microservices architecture
+
+![containers](/images/containers.png)
+
+### Docker Containers
+- wrap up the software in a complete file system that contains everything needed to run it.
+- designed to run a single application on each container  
+- use host operating system
+- as you create more containers need to consider container orchestration which is what Kubernetes does. https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+- i.e., Docker bundles your app into an image, a stand alone executable package and executes the image inside the container completely separate from the host machine.
+
+ ![docker](/images/docker.png)
+
+- Docker Hub: find and use image packages https://hub.docker.com/
+
+ ![development](/images/development.png)
+
+![production](/images/production.png)
