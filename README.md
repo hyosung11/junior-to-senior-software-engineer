@@ -1008,3 +1008,45 @@ prevent using Content Security Policy: set by npm packages
 
 #### Dockerfile Resource
 - To learn more about `bin/bash`  discussed in the previous video, have a look at this resource. https://unix.stackexchange.com/questions/398543/what-are-the-contents-of-bin-bash-and-what-do-i-do-if-i-accidentally-overwrote
+- Dockerfile reference https://docs.docker.com/engine/reference/builder/#usage
+
+### Docker Commands
+- `docker build -t superawesomecontainer .`
+
+- `docker run -it superawesomecontainer`
+
+- remember to use the flags `-it` is a TTY command that allows us to run the docker container
+
+- `docker run -it -d superawesomecontainer`: -d runs the container in the background without going inside of it.
+
+- `docker ps`: see all containers that are currently running
+
+- `docker exec -it 699762a763a5 bash`: enter the container
+
+- `docker stop 699762a763a5`: stop the container
+
+- Port Binding & Port Forwarding
+- `docker run -it -p 3000:3000 superawesomecontainer`
+
+### Docker Compose
+- tool to orchestrate our application services during development
+
+- `docker-compose build` https://docs.docker.com/compose/reference/build/
+
+- 'docker-compose run smart-brain-api' https://docs.docker.com/compose/reference/run/
+
+- everytime you change the yml file, you need to run: `docker-compose build` to re-read that file.
+
+- `docker-compose down`: to exit and check containers running in the background and take them down
+
+- `docker-compose up --build`: at the beginning to build and run npm install then can run `docker-compose up` https://docs.docker.com/compose/reference/up/
+
+- `volumes`: a way to have a connection or mounting of what we have on our computer to the docker container https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile and https://www.linux.com/tutorials/docker-volumes-and-networks-compose/
+
+- 'docker-compose up -d'
+- `docker-compose exec smart-brain-api bash` - puts you in the bash below
+- `root@7341e630ef3a:/usr/src/smart-brain-api#`
+
+### PostgreSQL with Docker Resources
+- https://hub.docker.com/_/postgres/
+- psql commands https://www.postgresql.org/docs/9.2/app-psql.html
