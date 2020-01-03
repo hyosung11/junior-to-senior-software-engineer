@@ -1002,7 +1002,7 @@ prevent using Content Security Policy: set by npm packages
 
 - Docker Hub: find and use image packages https://hub.docker.com/
 
- ![development](/images/development.png)
+![development](/images/development.png)
 
 ![production](/images/production.png)
 
@@ -1058,3 +1058,27 @@ prevent using Content Security Policy: set by npm packages
 - `/docker-entrypoint-init.d` https://hub.docker.com/_/postgres/
 
 ## Section 12: Redis
+- NoSQL database using key - value store
+- in memory database that makes it super fast and very scalable
+- used for short-lived data in applications like sessions
+
+ ![nosql-databases](/images/nosql-databases.png)
+
+ ### Database Management Systems DBMS
+
+ ![backend](/images/backend.png)
+
+ ![relational dbs](/images/relational-databases.png)
+ - use SQL with predefined schema
+
+ ### NoSQL / Non-relational Databases (document-oriented)
+ - e.g, MongoDB query 
+ - redis
+ - riak
+ - Cassandra
+ - couchDB
+ - Apache Hbase
+ - mongoDB
+ - Hypertable
+
+  ![dbcompare](/images/dbcompare.png)
