@@ -1072,7 +1072,7 @@ prevent using Content Security Policy: set by npm packages
  - use SQL with predefined schema
 
  ### NoSQL / Non-relational Databases (document-oriented)
- - e.g, MongoDB query 
+ - e.g, MongoDB query
  - redis
  - riak
  - Cassandra
@@ -1082,3 +1082,25 @@ prevent using Content Security Policy: set by npm packages
  - Hypertable
 
   ![dbcompare](/images/dbcompare.png)
+
+  ### Installing Redis https://redis.io/download
+
+  ### Redis Commands https://redis.io/commands
+  `src/redis-server` to run Redis
+  - `src/redis-cli` to enter Redis CLI
+  - `QUIT` exit the CLI
+  - `SHUTDOWN`
+
+  -` brew services start redis`
+  - `brew services stop redis`
+
+  ### Redis Data Types https://redis.io/topics/data-types
+
+  #### Five major data types: strings, hashes, lists, sets, and sorted sets
+  - Hashes: maps between string fields and string values, so they are the perfect data type to represent objects
+
+  - Lists: Redis Lists are simply lists of strings, sorted by insertion order. It is possible to add elements to a Redis List pushing new elements on the head (on the left) or on the tail (on the right) of the list.
+
+  - Sets & Sorted Sets (cannot have duplicates)
+  - Sets: Redis Sets are an unordered collection of Strings. It is possible to add, remove, and test for existence of members in O(1) (constant time regardless of the number of elements contained inside the Set).
+  - Sorted Sets: Redis Sorted Sets are, similarly to Redis Sets, non repeating collections of Strings. The difference is that every member of a Sorted Set is associated with score, that is used in order to take the sorted set ordered, from the smallest to the greatest score. While members are unique, scores may be repeated.
