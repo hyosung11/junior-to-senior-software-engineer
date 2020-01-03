@@ -1039,14 +1039,22 @@ prevent using Content Security Policy: set by npm packages
 
 - `docker-compose down`: to exit and check containers running in the background and take them down
 
-- `docker-compose up --build`: at the beginning to build and run npm install then can run `docker-compose up` https://docs.docker.com/compose/reference/up/
+- `docker-compose up --build`: at the beginning to build and run
+- then can run `docker-compose up` https://docs.docker.com/compose/reference/up/
 
 - `volumes`: a way to have a connection or mounting of what we have on our computer to the docker container https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile and https://www.linux.com/tutorials/docker-volumes-and-networks-compose/
 
-- 'docker-compose up -d'
+- `docker-compose up -d`
 - `docker-compose exec smart-brain-api bash` - puts you in the bash below
 - `root@7341e630ef3a:/usr/src/smart-brain-api#`
 
 ### PostgreSQL with Docker Resources
 - https://hub.docker.com/_/postgres/
 - psql commands https://www.postgresql.org/docs/9.2/app-psql.html
+
+### Other Resources
+- How to Create Tables and Insert Data into SQL Databases http://joshualande.com/create-tables-sql
+
+- `/docker-entrypoint-init.d` https://hub.docker.com/_/postgres/
+
+## Section 12: Redis
