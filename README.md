@@ -1124,3 +1124,16 @@ prevent using Content Security Policy: set by npm packages
 - Why JWTs Suck as Session Tokens https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens
 
 - JWT Debugger https://jwt.io/
+
+### Profile Icon Resources
+- reactstrap https://reactstrap.github.io/
+- Tachyons https://tachyons.io/
+
+### setState() Callback Resources
+- When to Use Callback Function of setState in React https://medium.com/better-programming/when-to-use-callback-function-of-setstate-in-react-37fff67e5a6c?
+- When to use React setState callback https://stackoverflow.com/questions/42038590/when-to-use-react-setstate-callback
+
+### HTML Entities
+- https://www.w3schools.com/charsets/ref_html_entities_4.asp
+
+### Updating Profile 
