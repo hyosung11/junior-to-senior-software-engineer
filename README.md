@@ -1094,6 +1094,8 @@ prevent using Content Security Policy: set by npm packages
 - `brew services start redis`
 - `brew services stop redis`
 
+- `docker- compose exec redis redis-cli`
+
 ### Redis Data Types https://redis.io/topics/data-types
 
 #### Five major data types: strings, hashes, lists, sets, and sorted sets
@@ -1136,4 +1138,36 @@ prevent using Content Security Policy: set by npm packages
 ### HTML Entities
 - https://www.w3schools.com/charsets/ref_html_entities_4.asp
 
-### Updating Profile 
+### Updating Profile
+
+### Storing JWT Tokens
+
+### Retrieving Auth Token
+
+### Client Session Management
+- research Bearer token
+```JavaScript
+componentDidMount() {
+  const token = window.sessionStorage.getItem('token');
+  if (token) {
+    fetch('http://localhost:3000/signin', {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': Bearer token
+      }
+    })
+      .then(data => {
+        if (data && data.id) {
+          console.log('success we need to get user profile')
+        }
+      })
+      .catch(console.log)
+  }
+}
+```
+#### Bearer Token Resources
+- Refresh Tokens: When to Use Them and How They Interact with JWTs https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/
+- Why is 'Bearer' required before the token in 'Authorization' header in HTTP request? https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re
+
+### Authorization Middleware
