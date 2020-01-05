@@ -1171,3 +1171,22 @@ componentDidMount() {
 - Why is 'Bearer' required before the token in 'Authorization' header in HTTP request? https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re
 
 ### Authorization Middleware
+
+### Improving SmartBrain
+Task 1: Add pet  and age  column to the database and allow users to update these fields on their profile.
+
+Task 2: Implement token flow as we have done so far for /register  end point as well.
+
+Task 3: Add Sign out functionality where you revoke the token when a user signs out of the app
+
+Task 4 (Bonus): You may notice a lot of repeated code (especially when it comes to fetch()). How can you improve this? Try to refactor the code and perhaps also improve the logic to make the app even better!
+
+You can find the github repositories of the code we have worked on up to this point below:
+Front End
+Back End
+Back End - Dockerized
+
+Enjoy the exercise... it's a tough one!
+
+## Section 14: AWS
+- using in
