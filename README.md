@@ -1203,4 +1203,42 @@ Enjoy the exercise... it's a tough one!
 
 5. DynamoDB: NoSQL database; Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
 
+AWS Flowchart (search AWS Flowcharts for more examples)
 ![aws-flowchart](/images/aws-flowchart.png)
+
+### Monolithic vs Microservices Architecture
+- While a monolithic application is a single unified unit, a microservices architecture breaks it down into a collection of smaller independent units. These units carry out every application process as a separate service. So all the services have their own logic and the database as well as perform the specific functions.
+
+### Amazon Lambda
+- serverless applications: hand code over to the cloud provider
+- underneath the hood the cloud provider creates a container (docker) and runs the function inside of it.
+- cold start problem (downside because the function has to be grabbed from the database and this takes time)
+
+### Amazon Lambda Dashboard
+- created account
+- Serverless Framework https://serverless.com/framework/docs/providers/aws/guide/intro/
+- `serverless` installed `sls`
+-`sls create -t aws-nodejs`
+- serverless works with AWS as well as other providers like Azure and openwhisk (IBM)
+- `sls config credentials --provider aws --key 1234 --secret abc`
+`nano credentials`
+
+- AWS Lambda `async`
+```JavaScript
+'use strict';
+module.exports.hello = async (event, context) => {  
+    return {    
+        statusCode: 200,    
+        body: JSON.stringify({      
+            message: 'Go Serverless v1.0! Your function executed successfully!',      
+            input: event,    
+        }),  
+    };    
+// Use this code if you don't use the http event with the LAMBDA-PROXY integration  
+// return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
+};
+```
+
+### IAM Resources
+- Managing IAM Policies https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html
+- IAM https://serverless.com/framework/docs/providers/aws/guide/iam/
