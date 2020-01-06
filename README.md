@@ -1189,4 +1189,18 @@ Back End - Dockerized
 Enjoy the exercise... it's a tough one!
 
 ## Section 14: AWS
-- using in
+- using infrastructure as a service or platform as a service: IaaS, PaaS
+- AWS, Microsoft Azure, Google Cloud Platform (GCP), IBM
+
+### Amazon Web Services (DevOps)
+1. EC2 (Elastic Compute Cloud): a general purpose bare metal server;  a web service that provides secure, resizable compute capacity in the cloud.
+
+2. S3 (Simple Storage Service): an object storage service where each object is stored as a file with its metadata and ID.
+
+3. Lambda: AWS Lambda lets you run code without provisioning or managing servers. Just provide a function and tell Lambda when to run it. Zero administration, zero configuration.
+
+4. Amazon CloudFront is a fast content delivery network (CDN) service
+
+5. DynamoDB: NoSQL database; Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
+
+![aws-flowchart](/images/aws-flowchart.png)
