@@ -1341,3 +1341,9 @@ module.exports.hello = async (event, context) => {
 
 - Scaling an App
 ![scaling](/images/scaling.png)
+
+## Section 16: CI/CD (Continuous Integration/Continuous Delivery)
+- CI/CD = CD (aka continuous deployment)
+
+- CI/CD Diagram
+ ![CI/CD](/images/CI-CD.png)
