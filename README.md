@@ -1317,3 +1317,27 @@ module.exports.hello = async (event, context) => {
 3. Catching Performance https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers
 
 ### Load Balancing
+- Apache
+- NGINX
+
+![load-balancer](/images/load-balancer.png)
+
+![load-balancer2](/images/load-balancer2.png)
+
+### NGINX https://www.nginx.com/
+- nginx documentation https://nginx.org/en/docs/
+- linode "How to Configure NGINX" https://www.linode.com/docs/web-servers/nginx/how-to-configure-nginx/
+
+#### loadtest
+- loadtest https://www.npmjs.com/package/loadtest
+- e.g., `loadtest -t 5 -c 100 --rps http://localhost:80`
+
+### Performance Summary Diagrams
+- Application Aspects Overview
+![aspects](/images/aspects.png)
+
+- Architecture of an App
+![architecture](/images/architecture.png)
+
+- Scaling an App
+![scaling](/images/scaling.png)
