@@ -1345,5 +1345,18 @@ module.exports.hello = async (event, context) => {
 ## Section 16: CI/CD (Continuous Integration/Continuous Delivery)
 - CI/CD = CD (aka continuous deployment)
 
-- CI/CD Diagram
- ![CI/CD](/images/CI-CD.png)
+- CI/CD -> CD Diagram
+ ![CI/CD](/images/CI-CD-CD.png)
+
+ ### Building Great Software
+![devprocess](/images/devprocess.png)
+
+### CI Tools
+- Top 8 Contnuous Integration Tools https://code-maze.com/top-8-continuous-integration-tools/
+- TravisCI or CircleCI for hosted CI servers
+- Jenkins for your own managed CI servers
+
+### CircleCI
+- https://circleci.com/?utm_source=gb&utm_medium=SEM&utm_campaign=SEM-gb-200-Eng-ni&utm_content=SEM-gb-200-Eng-ni-CircleCI&gclid=Cj0KCQiA9dDwBRC9ARIsABbedBNq1OPViLiVWu5Bh9YonmmuP_nOX2xnAv_1Wxl0zXWA3IFk-lyXcmEaAn4ZEALw_wcB
+
+### Continuous Integration 
