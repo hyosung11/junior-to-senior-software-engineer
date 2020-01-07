@@ -1213,6 +1213,7 @@ AWS Flowchart (search AWS Flowcharts for more examples)
 - serverless applications: hand code over to the cloud provider
 - underneath the hood the cloud provider creates a container (docker) and runs the function inside of it.
 - cold start problem (downside because the function has to be grabbed from the database and this takes time)
+- stateless
 
 ### Amazon Lambda Dashboard
 - created account
@@ -1222,6 +1223,9 @@ AWS Flowchart (search AWS Flowcharts for more examples)
 - serverless works with AWS as well as other providers like Azure and openwhisk (IBM)
 - `sls config credentials --provider aws --key 1234 --secret abc`
 `nano credentials`
+- `sls deploy`
+`sls invoke --function rank`
+- `sls invoke local --function rank`: not sent to AWS Lambda server
 
 - AWS Lambda `async`
 ```JavaScript
@@ -1242,3 +1246,15 @@ module.exports.hello = async (event, context) => {
 ### IAM Resources
 - Managing IAM Policies https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html
 - IAM https://serverless.com/framework/docs/providers/aws/guide/iam/
+
+### Deploying a Function
+
+## Section 15: Performance Part 3
+
+### CDNs
+- e.g., cloudflare https://www.cloudflare.com/, Amazon CloudFront, MS Azure
+- caching
+- DDOS (Distributed Denial of Service) Attacks
+- fixing latency problem
+
+![cdn](/images/cdn.png)
