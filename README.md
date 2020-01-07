@@ -1302,3 +1302,18 @@ module.exports.hello = async (event, context) => {
 ![dbtypes](/images/dbtypes.png)
 
 ### Caching
+- temporary storage of data for faster access
+- CPU -> RAM -> HDD
+
+![caching](/images/caching.png)
+
+- cache busting
+
+![request](/images/request.png)
+
+### Caching Resources
+1. Caching Everywhere https://www.freecodecamp.org/news/the-hidden-components-of-web-caching-970854fe2c49/
+2. Cache Headers https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+3. Catching Performance https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers
+
+### Load Balancing
