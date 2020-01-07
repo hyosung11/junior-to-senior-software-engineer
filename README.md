@@ -1258,3 +1258,47 @@ module.exports.hello = async (event, context) => {
 - fixing latency problem
 
 ![cdn](/images/cdn.png)
+
+### GZIP
+`content-encoding: gzip`
+`const compression = require('compression')`
+`app.use(compression())`
+
+### Brotli (from Google) https://brotli.org/
+- Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.
+
+### Database Scaling
+1. Identify inefficient queries
+2. Increase memory
+3. Vertical scaling (Redis, Memcached)
+4. Sharding
+5. More databases
+6. Database type
+
+#### Identify Inefficient Queries
+- only request what you absolutely need from server
+- indexing (so can run binary search) but require additional space
+- e.g. `CREATE INDEX idx_name ON table_name (column_name);`
+- storage is the slowest piece in a relational database
+
+#### Increase Memory
+- give additional memory by improving the hardware that the database is working on
+
+#### Vertical Scaling (Redis, Memcached)
+- adding another service so your system uses resources more effectively.
+- caching info on Redis to for memory access rather than disk access.
+
+#### Sharding
+- breaking the database down into different pieces
+- e.g., by age of users: over/under 30 years old
+
+#### More Databases  
+- share requests between databases
+- distribute the load
+
+#### Database Type
+- choose the best database for your project
+
+![dbtypes](/images/dbtypes.png)
+
+### Caching
