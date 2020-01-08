@@ -1359,4 +1359,8 @@ module.exports.hello = async (event, context) => {
 ### CircleCI
 - https://circleci.com/?utm_source=gb&utm_medium=SEM&utm_campaign=SEM-gb-200-Eng-ni&utm_content=SEM-gb-200-Eng-ni-CircleCI&gclid=Cj0KCQiA9dDwBRC9ARIsABbedBNq1OPViLiVWu5Bh9YonmmuP_nOX2xnAv_1Wxl0zXWA3IFk-lyXcmEaAn4ZEALw_wcB
 
-### Continuous Integration 
+### Continuous Integration
+- Prettier https://prettier.io/
+
+- Code in Production
+![code](/images/code-in-production.png)
