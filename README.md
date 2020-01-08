@@ -1364,3 +1364,24 @@ module.exports.hello = async (event, context) => {
 
 - Code in Production
 ![code](/images/code-in-production.png)
+
+## Section 17: Extra Bits
+
+### Complexity vs Simplicity
+- always choose simplicity over complexity
+- good code is self-documenting
+- good code minimizes bugs and allows people to add to it without bugs because it's clear and concise
+
+### NPM Is Not Your Friend
+- Why do I need this library?
+- Assess each new thing before adding it to your project
+
+### Learn to Learn
+- find your most efficient way to learn
+- keep practicing
+
+### Start with Why
+- frameworks, libraries, tools, etc. change constantly
+- Fundamental computer science topics and software development practices endure
+- Understand why the solution was created, what problem it solves, and why is it the answer to your problem.
+- Be the observer with an eagle's eye view and not the hamster trying to keep up with the latest thing.
