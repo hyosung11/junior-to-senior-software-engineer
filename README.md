@@ -1385,3 +1385,5 @@ module.exports.hello = async (event, context) => {
 - Fundamental computer science topics and software development practices endure
 - Understand why the solution was created, what problem it solves, and why is it the answer to your problem.
 - Be the observer with an eagle's eye view and not the hamster trying to keep up with the latest thing.
+
+2020107 Finished course. Yay!
