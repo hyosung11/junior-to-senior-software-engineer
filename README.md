@@ -1,4 +1,5 @@
 # Junior to Senior Software Engineer
+
 Udemy's The Complete Junior to Senior Web Developer Roadmap (2020) by Andrei Neagoie
 
 ## Section 1: Introduction
@@ -131,6 +132,7 @@ tinypng.com - jpeg and png files
 squoosh.app (Google)
 
 ### Media Queries - responsive design:
+
 ```css
 @media screen and (min-width: 900px) {
   body {
